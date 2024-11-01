@@ -2,45 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Red Hat Display', sans-serif;
-    
 }
-
-/* mobile screen */
-@media screen and (min-width: 375px) {
-    .hero-desktop {
-        display: none;
-    }
-
-    .hero-mobile {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: -10px;
-        margin-right: -10px;
-    }
-
-    .hero-mobile-image {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        overflow-x: hidden;
-        height: 3px;
-    }
-
-    .hero-mobile-image img {
-        width: 50%;
-        height: auto;
-        object-fit: cover;
-    }
-}
-
-/* end */
-
-
-/* Tablet screen */
-@media screen and (min-width: 768px) {}
-
-/* end */
 
 /* Desktop screen */
 @media screen and (min-width: 1440px) {
@@ -95,6 +57,7 @@
         border-style: none;
         cursor: pointer;
     }
+
     .hero-desktop button:hover {
         background-color: #71C0D4;
     }
@@ -119,7 +82,7 @@
         height: 308px;
         position: relative;
         padding: 0px 160px;
-        background-color: #4D96A9;  
+        background-color: #4D96A9;
         margin-top: -1.5rem;
     }
 
@@ -135,8 +98,6 @@
         left: 0;
         right: 0;
         opacity: 0.1;
-
-
     }
 
     footer h3 {
@@ -172,18 +133,21 @@
         background-color: #B18BDD;
     }
 
+    footer span {
+        color: #D9B8FF;
+        padding-left: 4px;
+    }
+
+
 
 }
+
 /* end */
 
 .logo {
     display: flex;
     justify-content: center;
     padding: 48px 0px 48px 0px;
-}
-
-.hero-image {
-    /* height: 100%; */
 }
 
 .hero {
@@ -209,7 +173,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: #ffff; */
     margin-top: 4.5rem;
     position: relative;
     z-index: 1;
@@ -271,21 +234,3 @@
     font-size: 18px;
     color: #87879D;
 }
-
-/* .red {
-    width: 300px;
-    height: 300px;
-    background-color: red;
-    position: relative;
-    z-index: 30;
-}
-
-.blue {
-    width: 300px;
-    height: 300px;
-    background-color: blue;
-    position: relative;
-    z-index: 20;
-    left: 30px;
-    margin-top: -45px;
-} */
